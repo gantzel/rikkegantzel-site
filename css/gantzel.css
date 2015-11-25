@@ -1,75 +1,75 @@
 
-	
+
 
 
 
 /* -----------  Links  ----------- */
 
-a.whiteLink { 
-	color:#ffffff; 
-	font-size: 12px; 
-	font-family: 'Lato', sans-serif; 
-	font-weight: 800; 
+a.whiteLink {
+	color:#ffffff;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
 	text-transform:uppercase;
-	text-decoration: none; 
-	border-bottom: 1px dotted; 
-	border-color: #1dc484;}
-	
-a.redLink { 
-	color:#ffffff; 
-	font-size: 12px; 
-	font-family: 'Lato', sans-serif; 
-	font-weight: 800; 
-	text-decoration: none;}
-	
-a.redLink:hover { 
-	color:#ffffff; 
-	font-size: 12px; 
-	font-family: 'Lato', sans-serif; 
-	font-weight: 800; 
 	text-decoration: none;
-	border-bottom: 1px dotted; 
+	border-bottom: 1px dotted;
 	border-color: #1dc484;}
-	
-a.blueLink { 
-	color:#ffffff; 
-	font-size: 15px; 
-	font-family: 'Lato', sans-serif; 
-	font-weight: 700; 
+
+a.redLink {
+	color:#ffffff;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
 	text-decoration: none;}
-	
-a.blueLink:hover { 
-	color:#ffffff; 
-	font-size: 15px; 
-	font-family: 'Lato', sans-serif; 
-	font-weight: 700; 
-	text-decoration: none; 
-	border-bottom: 1px dotted; 
+
+a.redLink:hover {
+	color:#ffffff;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+	text-decoration: none;
+	border-bottom: 1px dotted;
 	border-color: #1dc484;}
 
-a.niceLink { 
-	color:#ffffff; 
-	font-size: 13px; 
-	font-family: 'Montserrat', sans-serif; 
-	font-weight: 700; 
-	text-decoration: none;  
+a.blueLink {
+	color:#ffffff;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;}
+
+a.blueLink:hover {
+	color:#ffffff;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	border-color: #1dc484;}
+
+a.niceLink {
+	color:#ffffff;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
 	text-transform:uppercase;}
 
-a.niceLink:hover { 
-	color:#ffffff; 
-	font-size: 13px; 
-	font-family: 'Montserrat', sans-serif; 
-	font-weight: 700; 
-	text-decoration: none; 
-	border-bottom: 1px dotted; 
-	border-color: #1dc484; 
+a.niceLink:hover {
+	color:#ffffff;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	border-color: #1dc484;
 	text-transform:uppercase;}
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 /* -----------  Dribbble Header  ----------- */
 
 .primaryContainerheader {
@@ -174,13 +174,6 @@ body {
   line-height: 18px;
 }
 
-#shotsByPlayerId {
-  display: block;
-  float: left;
-  position: relative;
-  margin-top: 60px;
-}
-
 .shot {
     float:left;
     overflow:hidden;
@@ -195,7 +188,7 @@ body {
 
 .layer2:hover {
     opacity: 1;
-	
+
 }
 
 .layer2 {
@@ -226,10 +219,10 @@ body {
 }
 
 .dribbble-link a {
-  font-size: 0.8em; 
+  font-size: 0.8em;
   color: rgba(61,61,61,.99);
   text-decoration: none;
- 
+
 }
 
 
