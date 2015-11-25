@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/boilerplate.css" />
+    <link rel="stylesheet" href="css/gantzel.css" />
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+	<script>var __adobewebfontsappname__ = "reflow"</script>
+	<script src="http://use.edgefonts.net/lato:n9,i4,n1,i7,i9,n7,i1,i3,n4,n3:all.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/jquery.jribbble-1.0.1.js"></script>
+	
+	
+    
+    
+	<script>
+        var callback = function (playerShots) {
+            var html = '';
+
+            $('h2 b').text(playerShots.shots[0].player.name);
+
+            $.each(playerShots.shots, function (i, shot) {
+
+                html += '<div class="shot">';
+                html += '<img src="' + (shot.image_400_url ? shot.image_400_url : shot.image_url) + '" ';
+                html += 'alt="' + shot.title + '">';
+                html += '<div class="layer2"><p class="likes">' + shot.likes_count + '</p>';
+                html += '<p class="likes-text">LIKES</p>';
+                html += '<p class="dribbble-link"><a href="' + shot.url + '" target="_blank">View on Dribbble</a></p></div>';
+                html += '</div>';
+
+            });
+
+            $('#shotsByPlayerId').html(html);
+        };
+
+        $.jribbble.getShotsByPlayerId('RikkeGantzel', callback, {page: 1, per_page: 40});
+    </script>
+    
+    
+    
+    
+    
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50309638-1', 'rikkegantzel.com');
+  ga('send', 'pageview');
+
+</script>
+    
+
+</head>
+
+<body>
+   <div id="primaryContainerheader" class="primaryContainerheader clearfix">
+               <div id='dribbbleheader' class='clearfix'>
+           <div id='dh' class='clearfix'> <a href="index.html"><img id='image' src='assets/arrow.png' class='image' /></a>
+               <p id='text'>
+               <a href="index.html" class="niceLink">Back</a>
+               </p>
+           </div>
+           <div id='box' class='clearfix'> <a href="index.html"><img id='image1' src='assets/logo.svg' class='image' /></a>
+           </div>
+       </div>
+
+	</div>
+    
+     <section id="dribbble">
+ <div id="shotsByPlayerId"></div>
+        
+            
+
+
+</body>
+</html>
