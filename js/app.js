@@ -7,7 +7,7 @@ $.jribbble.users('RikkeGantzel').shots({per_page: 36}).then(function(shots) {
   shots.forEach(function(shot) {
     html.push('<li class="shots--shot">');
     html.push('<a href="' + shot.html_url + '" target="_blank">');
-    html.push('<img src="' + shot.images.hidpi + '">');
+    html.push('<img src="' + shot.images.normal + '" srcset="' + shot.images.normal + ' 1x, ' + shot.images.hidpi + ' 2x">');
     html.push('</a></li>');
   });
 
